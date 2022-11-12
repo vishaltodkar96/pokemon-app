@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Quicksand&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;    
+}
+
+body{
+    background-color: #FCEEC8;
+}
+
+.heading{
+    font-size: 4.5em;
+    margin: 10px 0;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-content{
+    display: grid;
+    flex-basis: 100%;
+    grid-template-columns: repeat(auto-fit,minmax(300px,0.5fr));
+    grid-gap:2rem;
+}
+
+.card{
+    width: 300px;
+    background-color:#9EDEF9;
+    border-radius: 1rem;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+    padding: 1rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.image{
+    width: 240px;
+    height: 330px;
+}
+
+.right-content{
+    width: 50%;
+    text-align: center;
+    color: black;
+    position: fixed;
+    top:100px;
+    right: 10px;
+}
+
+.abilities{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.abilities .group{
+    background-color: #b74555;
+    color: white;
+    padding: 0.5rem;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-left: 1.5rem;
+}
+
+.btn-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.btn-group button{
+    outline: none;
+    border: none;
+    width: 150px;
+    padding: 0.3rem 0;
+    margin: 1rem;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background-color: #b74555;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.info{
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-subinfo, .right-subinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-basis: 50%;
+}
+
+.left-subinfo{
+    align-items: center;
+    justify-content: end;
+}
+
+.info-image{
+    width: 400px;
+    height: 500px;
+    background-color:#9EDEF9;
+    border-radius: 1rem;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+    padding: 1rem 1.5rem;    
+}
